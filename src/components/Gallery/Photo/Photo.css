@@ -1,0 +1,17 @@
+.photo {
+    width: 330px;
+    height: 360px;
+    background-color: grey;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.photo img {
+    width: 330px;
+    height: 360px;
+    border-radius: 15px;
+
+}

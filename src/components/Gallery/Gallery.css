@@ -1,0 +1,52 @@
+.gallery {
+    width: 1100px;
+    height: 1300px;
+    margin: 35px;
+    box-shadow: 0 0 15px 10px rgb(204, 196, 196);
+    border-radius: 15px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.portrait {
+    width: 330px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px
+}
+
+.actions {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.actions button {
+    width: 120px;
+    height: 25px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkgray;
+}
+
+
